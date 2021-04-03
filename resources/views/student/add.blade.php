@@ -64,7 +64,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="tanggal_lahir">Birth Date</label>
+                                <label for="tanggal_lahir">Tanggal Lahir</label>
                                 <input type="date" name="tanggal_lahir" class="form-control mb-2 @error('tanggal_lahir') is-invalid @enderror" id="tanggal_lahir">
                                 @error('tanggal_lahir')
                                     <div class="invalid-feedback">
@@ -90,7 +90,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="nomor_Telepon">nomor_Telepon Number</label>
+                                <label for="nomor_Telepon">Nomor Telepon</label>
                                 <input type="text" name="nomor_Telepon" class="form-control mb-2 @error('nomor_Telepon') is-invalid @enderror" id="nomor_Telepon" placeholder="Enter nomor_Telepon">
                                 @error('nomor_Telepon')
                                     <div class="invalid-feedback">

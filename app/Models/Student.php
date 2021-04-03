@@ -9,5 +9,5 @@ class Student extends Model
 {
     use HasFactory;
     protected $table = 'phj_students';
-    protected $fillable = ['nis', 'name', 'birth_date', 'gender', 'class_id', 'phone', 'address'];
+    protected $fillable = ['nis', 'nama', 'tanggal_lahir', 'jenis_kelamin', 'class_id', 'nomor_Telepon', 'alamat','asal_sekolah'];
 }

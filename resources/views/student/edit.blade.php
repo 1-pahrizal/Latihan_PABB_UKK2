@@ -16,9 +16,9 @@
             </ol>
           </div>
         </div>
-      </div><!-- /.container-fluid -->
+      </div>
     </section>
-
+  <!-- /.container-fluid -->
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
@@ -121,7 +121,7 @@
                         <div class="col-md-12">
                             <div class="form-group">
                                 <label for="alamat">alamat</label>
-                                <textarea type="text" name="alamat"  class="form-control mb-2 @error('alamat') is-invalid @enderror" id="alamat" placeholder="Enter alamat">{{ old('alamat') ?? $student->alamat }}
+                                <textarea type="text" name="alamat" class="form-control mb-2 @error('alamat') is-invalid @enderror" id="alamat" placeholder="Enter alamat">{{ old('alamat') ?? $student->alamat }}
                                 </textarea>
                                 @error('alamat')
                                     <div class="invalid-feedback">

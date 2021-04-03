@@ -28,7 +28,7 @@
             <!-- jquery validation -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Add Class</h3>
+                <h3 class="card-title">Tambah Kelas</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
@@ -36,7 +36,7 @@
                  @csrf
                 <div class="card-body">
                   <div class="form-group">
-                    <label for="className">Class Name</label>
+                    <label for="className">Nama_kelas</label>
                     <input type="text" name="name" class="form-control mb-2 @error('name') is-invalid @enderror" id="className" placeholder="Enter Class Name">
                     @error('name')
                         <div class="invalid-feedback">
